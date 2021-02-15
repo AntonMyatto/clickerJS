@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body #display{
+    color:red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+body #button{
+    background-color: red;
+    color:#fff;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 25px;
+    
+}
+
+body #counter{
+    font-size: 18px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+body main{
+    text-align: center;
+}
